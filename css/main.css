@@ -1,0 +1,202 @@
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  background-color: rgba(221,218,218,1);
+}
+nav h4
+{
+  display: inline-block;
+ font-family: 'Cookie', cursive;
+ font-size: 25px;
+  margin-bottom: 20px;
+}
+nav i
+{
+  float: left;
+  margin-top: 35px;
+  margin-left: 20px;
+  color: #e74848;
+}
+nav ul
+{
+  float: right;
+  display: inline-block;
+}
+nav li
+{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  }
+  nav li a{
+      text-decoration: none;
+      color: black;
+  }
+  hr{
+    width: 97%;
+  }
+header
+{
+  text-align: center;
+  line-height: 2px;
+}
+header span{
+  color:#e74848;
+}
+header .IntroHeader
+{
+  margin: 35px;
+}
+header img
+{
+  width: 98%;
+  height: 200px;
+  border-radius: 5px;
+}
+section
+{
+text-align: center;
+}
+section .leftParagraph
+{
+  float: left;
+  margin-left: 15px;
+  font-size: 18px;
+}
+section .rightParagraph
+{
+  float: right;
+  margin-right:15px;
+  font-size: 18px;
+}
+section p
+{
+  text-align: justify;
+}
+section .leftParagraph h4, section .rightParagraph h4
+{
+  color: #e74848;
+  font-family: 'Cookie', cursive;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.container
+{
+  display: inline-block;
+  margin: 50px;
+}
+.images-ten
+{
+  display: inline-block;
+  text-align: left;
+  line-height: 1px;
+  padding: 0px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+.images-ten img
+{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.images-ten h4
+{
+font-size: 18px;
+margin-top: 15px;
+margin-left: 10px;
+margin-bottom: 0px;
+}
+.images-ten p
+{
+  color: #e74848;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+section h2
+{
+  text-align: center;
+  color: #e74848;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+}
+footer
+{
+  background-color: black;
+  height: 350px;
+  
+
+}
+footer .inside
+{
+  margin: 20px;
+  margin-bottom: 0px;
+}
+footer .inside h2
+{
+  color: #a84052;
+  margin-top:50px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+
+}
+footer form
+{
+  float: left;
+
+}
+form input[type=text], form input[type=email]
+{
+  width: 500px;
+  margin: 8px 0;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+form textarea
+{
+  width: 540px;
+  height: 90px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+form input[type=button]
+{
+  width: 75px;
+  height:25px;
+  color: white;
+  font-size: 18px;
+  background: black;
+  border: none;
+  margin-top: 5px;
+  text-align: left;
+}
+form input[type=button]:hover
+{
+  cursor: pointer;
+}
+form input[type=button]:focus
+{
+  cursor: pointer;
+}
+footer i
+{
+  float: right;
+  color: #171617;
+  border: 1px solid #a84052;
+  border-radius: 50%;
+  margin: 80px 15px;
+  padding: 7px;
+  background: #a84052;
+}
+.fa-facebook
+{
+  padding: 7px 9px;
+}
